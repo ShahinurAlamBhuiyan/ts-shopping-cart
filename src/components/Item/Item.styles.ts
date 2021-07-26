@@ -29,9 +29,11 @@ export const ButtonContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     
     button{
         width: 150px;
-        border-radius: 20px;Î
+        border-radius: 20px;
+        margin-bottom: 10px;
     }
 `;
