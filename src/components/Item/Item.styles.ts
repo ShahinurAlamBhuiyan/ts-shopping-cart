@@ -10,9 +10,7 @@ export const Wrapper = styled.div`
     height: 100%;
     
 
-    button{
-        border-radius: 0 0 20px 20px;
-    }
+    
 
     img{
         max-height: 250px;
@@ -24,5 +22,16 @@ export const Wrapper = styled.div`
         font-family: Arial, Helvetica, sans-serif;
         padding: 1rem;
         height: 100%;
+    }
+`;
+
+export const ButtonContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    button{
+        width: 150px;
+        border-radius: 20px;Î
     }
 `;
